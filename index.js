@@ -4,10 +4,13 @@ for(var i = 0; i < numberOfDice; i++)
 {
   document.querySelectorAll("img")[i].addEventListener("click", function()
   {
-    var audio = new Audio('Music/diceGameNas.mp3');
-    audio.currentTime = 40;
+    /*
+   // placeholder for adding music when img is clicked
+    var audio = new Audio('Music/"mp3Name".mp3');
+    audio.currentTime = ;
     audio.play();
   });
+  */
 }
 //------------------------First Image-----------------------//
 
